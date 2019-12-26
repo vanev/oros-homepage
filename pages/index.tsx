@@ -1,5 +1,17 @@
 import React, { Fragment } from "react";
+import NextHead from "next/head";
 import { Jumbo, Explore } from "../components";
+
+const Head = () => (
+  <NextHead>
+    <title>Welcome to Oros</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Shrikhand"
+      rel="stylesheet"
+    />
+  </NextHead>
+);
 
 const Hero = () => (
   <Jumbo.Base>
@@ -45,6 +57,7 @@ const Links = () => (
 
 const Home = () => (
   <Fragment>
+    <Head />
     <Hero />
     <Links />
 
