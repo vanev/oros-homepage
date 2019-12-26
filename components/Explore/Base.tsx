@@ -1,14 +1,16 @@
 const Base = ({ children }) => (
-  <div className="Base">
+  <div className="Explore">
     {children}
 
     <style jsx>{`
-      .Base {
+      .Explore {
         padding: 30px 5%;
         background-color: black;
       }
+    `}</style>
 
-      .Title + .Links {
+    <style jsx global>{`
+      .Explore .Title + .Links {
         margin-top: 30px;
       }
     `}</style>
