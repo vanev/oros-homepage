@@ -62,12 +62,17 @@ const Home = () => (
     <Links />
 
     <style jsx global>{`
+      * {
+        box-sizing: border-box;
+      }
+
       body {
         padding: 0;
         width: 100%;
         height: 100%;
         margin: 0;
       }
+
       a {
         text-decoration: none;
       }
