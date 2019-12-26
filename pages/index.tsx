@@ -5,7 +5,6 @@ import { Jumbo, Explore } from "../components";
 const Head = () => (
   <NextHead>
     <title>Welcome to Oros</title>
-
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat|Shrikhand"
       rel="stylesheet"
@@ -25,28 +24,24 @@ const Links = () => (
     <Explore.Title>Explore the World</Explore.Title>
     <Explore.Links>
       <Explore.Link
-        disabled={true}
         href={null}
         backgroundImage="visit-legate.jpg"
         label="Legate Department of Tourism"
       />
 
       <Explore.Link
-        disabled={true}
         href={null}
         backgroundImage="library-of-moralon.jpg"
         label="The Library of Moralon"
       />
 
       <Explore.Link
-        disabled={true}
         href={null}
         backgroundImage="the-irongate-times.jpg"
         label="The Irongate Times"
       />
 
       <Explore.Link
-        disabled={true}
         href={null}
         backgroundImage="the-hammer-and-tongs.png"
         label="The Hammer & Tongs"
